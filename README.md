@@ -1,4 +1,4 @@
-# projeto-limpeza-de-dados
+# Projeto Limpezad de Dados
 O projeto atual tem como objetivo a otimização da distribuição de materiais didáticos nas escolas da cidade do Rio de Janeiro. Nossa consultoria foi contratada para realizar tratamentos nos dados fornecidos de acordo com padrões específicos e encontrar a melhor rota para a entrega eficiente dos materiais.
 
 ![vist Card](https://cdn.discordapp.com/attachments/1205131422378098728/1205131482625212447/TOUT.webp?ex=65d74127&is=65c4cc27&hm=758e087a03e2a21fb286f31f66dff790ebfcc970e1f4f2cb29dc8ba24b7f2d40&)
