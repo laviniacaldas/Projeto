@@ -49,8 +49,12 @@ Os dados devem estar no seguinte padrão:
 - Python 3.10.0
 - Jupyter Notebook
 - Git & GitHub
-- Bibliotecas: Pandas, Numpy, Matplotlib, Seabord, Plotly
+- Bibliotecas: Pandas, Numpy, Os, Math, Matplotlib
 
+### 3.4. Tratamento do Dados
+
+Para o tratamento inicial dos dados, foram criadas algumas funções com o objetivo de adaptá-los ao padrão requisitado (já descrito acima). Assim, os acentos das strings foram removidos, assim como colocadas em maiúsculo, os logradouros padronizados, latitude e longitude foram reduzidas a 5 casas decimais e IDs das escolas transformados em strings com 3 caracteres.
+Em seguida, foram excluídos os dados nulos e os dados duplicados. Os dados tratados foram então salvos.
 
 
 
