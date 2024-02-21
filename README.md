@@ -1,7 +1,7 @@
-# Projeto Limpezad de Dados
-O projeto atual tem como objetivo a otimização da distribuição de materiais didáticos nas escolas da cidade do Rio de Janeiro. Nossa consultoria foi contratada para realizar tratamentos nos dados fornecidos de acordo com padrões específicos e encontrar a melhor rota para a entrega eficiente dos materiais.
+# Projeto Limpeza de Dados
+Este projeto tem como objetivo a resolução de um problema de logística baseado na distribuição de material escolar em escolas do município do Rio de Janeiro.  Nele, deveríamos fazer o tratamento dos dados fornecidos de acordo com padrões solicitados e encontrar uma rota que otimizasse a distribuição dos materiais em todas as escolas de acordo com suas respectivas localizações.
 
-![vist Card](https://cdn.discordapp.com/attachments/1205131422378098728/1205131482625212447/TOUT.webp?ex=65d74127&is=65c4cc27&hm=758e087a03e2a21fb286f31f66dff790ebfcc970e1f4f2cb29dc8ba24b7f2d40&)
+![vist Card](https://portal.loft.com.br/wp-content/uploads/2022/10/mapa-zonas-bairros-rio-de-janeiro.jpg)
 
 
 ## Índice
@@ -20,28 +20,34 @@ O projeto atual tem como objetivo a otimização da distribuição de materiais 
 
 
 ## 1. Proposta de Negócios
-Para alcançar esse objetivo, de otimização na entrega de materiais, recebemos três arquivos fundamentais: escolas.csv, subprefeituras.csv e material_didatico.csv. Cada um desses arquivos contém informações cruciais sobre as escolas, os bairros pertencentes a cada subprefeitura e a quantidade de material didático a ser entregue em cada escola, respectivamente.
+Fomos contratados para realizar a distribuição de materiais didáticos nas escolas da cidade do Rio de Janeiro. Nossa missão é realizar tratamentos nos dados de acordo com as normas de padrão definidas pelo cliente e encontrar qual a melhor rota que um caminhão deve realizar para entregar os materiais didáticos de forma a otimizar o seu percurso.
 
 
 
 ## 2. Compreensão dos Dados
-
-## 3. Plano de ação
 Para alcançar esse objetivo, de otimização na entrega de materiais, recebemos três arquivos fundamentais: escolas.csv, subprefeituras.csv e material_didatico.csv. Cada um desses arquivos contém informações cruciais sobre as escolas, os bairros pertencentes a cada subprefeitura e a quantidade de material didático a ser entregue em cada escola, respectivamente.
 
+## 3. Plano de ação
+Para executar o projeto de consultoria em dados, foi necessário abordarmos o problema por etapas, tendo como foco inicial o tratamento dos dados recebidos. Após o devido tratamento, os dados foram processados em uma função otimizadora e as escolas finalmente organizadas na melhor ordem esperada para a entrega do material.
 
-### 3.1. Meta final
-O produto final a ser entregue consiste em dois arquivos CSV. O primeiro arquivo terá as linhas ordenadas de acordo com a rota otimizada de entrega. As colunas seguirão um padrão específico, com informações como id da escola, nome da escola, tipo da escola (EM, CIEP ou colégio), logradouro e número da entrega, bairro, subprefeitura, latitude, longitude e quantidade de material didático. Vale ressaltar que o logradouro da escola será separado em uma coluna distinta para o número.
+
+### 3.1. Produto final
+O produto final consiste em:
+- um arquivo csv onde as linhas já estarão ordenadas de acordo com a rota a ser seguida. Além disso, os dados devem estar no padrão especificado abaixo e contendo as seguintes colunas: id da escola, nome da escola, tipo da escola (EM, CIEP ou colégio), logradouro da entrega, número, bairro, subprefeitura, latitude, longitude e quantidade de material didático que deve ser entregue. O logradouro da escola deve estar em uma coluna diferente do número;
+- um arquivo csv com a quantidade total de material escolar por subprefeitura para que sejam contabilizados os custos por subprefeitura.
+Os dados devem estar no seguinte padrão:
+- nome das colunas em snake_case
+- strings não devem conter acentos
+- todas as strings devem estar em maiúsculo
+- padronização do nome dos logradouros sem abreviação (Ex: R. deve estar como Rua)
+- latitude e longitude devem conter apenas 5 casas decimais
+- os ids da escola devem todos ser strings com 3 caracteres (Ex: '024')
 
 ### 3.2. Ferramentas e Frameworks
-
-Escopo das ferramentas usadas no projeto:
-
 - Python 3.10.0
 - Jupyter Notebook
 - Git & GitHub
-- Pandas
-- Numpy
+- Bibliotecas: Pandas, Numpy, Matplotlib, Seabord, Plotly
 
 ### 3.3. Instalação do Projeto
 
@@ -94,7 +100,7 @@ Escopo das ferramentas usadas no projeto:
    ```
 
 ### 3.4. Processo CRISP-DM
-A metodologia [CRIPS-DM](https://www.ibm.com/docs/en/spss-modeler/saas?topic=dm-crisp-help-overview) foi aplicada para traçar meu plano de ação. Este é o processo, passo a passo:
+A metodologia [CRIPS-DM](https://www.ibm.com/docs/en/spss-modeler/saas?topic=dm-crisp-help-overview) foi aplicada para traçar nosso plano de ação. Este é o processo, passo a passo:
 
 <p align="center">
  <img src="https://cdn.discordapp.com/attachments/1181695164633329824/1181695982753304697/CRISP-DM_Flowchart_ElderResearch_Circular-1.png?ex=6581ff25&is=656f8a25&hm=978e079ffa29bbb54af68d891c7318a2bb1f9a30f3ac0c144434b96df3e2a367&"  style="zoom:65%"/>
