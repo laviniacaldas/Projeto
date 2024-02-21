@@ -1,4 +1,5 @@
 # Projeto Limpeza de Dados
+O seguinte projeto foi proposto como conclusão do módulo de Técnicas de Programação I, ministrado pelo professor 
 Este projeto tem como objetivo a resolução de um problema de logística baseado na distribuição de material escolar em escolas do município do Rio de Janeiro.  Nele, deveríamos fazer o tratamento dos dados fornecidos de acordo com padrões solicitados e encontrar uma rota que otimizasse a distribuição dos materiais em todas as escolas de acordo com suas respectivas localizações.
 
 ![vist Card](https://portal.loft.com.br/wp-content/uploads/2022/10/mapa-zonas-bairros-rio-de-janeiro.jpg)
